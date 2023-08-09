@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-image:url(https://media.istockphoto.com/id/536754333/vector/very-complicated-math-formula-on-blackboard.jpg?s=612x612&w=0&k=20&c=_ynD7iJIaB4nDY9TLw55A_jnV0143Z3rLwFyaI-Yd3o=);
+    font-family: cursive;
+  }
+  
+  .form {
+    background-color:orchid;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px green;
+    color: green;
+  }
+  
+  .input::placeholder {
+    color: rgb(223, 214, 215);
+    font-family: cursive;
+  }
+
+  .btn {
+    background-color:lightblue;
+    color:rgb(36, 23, 210);
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    filter: brightness(0.9);
+  }
+  
+  .score {
+    color: rgb(218, 235, 95);
+    text-align: left;
+  }
